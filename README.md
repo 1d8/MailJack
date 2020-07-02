@@ -1,3 +1,3 @@
 # MailJack
 
-![](../img3.png) 
+![](/imgs/img3.png)
