@@ -8,7 +8,7 @@ The test.ps1 file should include a link to the stealer.ps1 file, then you run b6
 
 Make sure to change the IP address & username & password used in stealer.ps1 to suit your own needs.
 
-# Analysis After Execution
+# Post Execution
 
 After execution of dropper.exe, we find that the infamous "hello world" phrase pops up in the command line & we see 2 new powershell scripts loaded onto the Desktop: file.ps1 & stealer.ps1:
 
