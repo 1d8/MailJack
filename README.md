@@ -2,6 +2,12 @@
 ## MADE FOR EDUCATIONAL/RESEARCH PURPOSES
 ***
 
+# Explaining The Files
+
+The test.ps1 file should include a link to the stealer.ps1 file, then you run b64encode.ps1, the output of b64encode.ps1 should be put inside the *b642* variable in dropper.c. Make sure to add `powershell -encodedCommand` before the base64 encoded data in the *b642* variable to ensure the base64 is decoded & executed.
+
+Make sure to change the IP address & username & password used in stealer.ps1 to suit your own needs.
+
 
 After execution of dropper.exe, we find that the infamous "hello world" phrase pops up in the command line & we see 2 new powershell scripts loaded onto the Desktop: file.ps1 & stealer.ps1:
 
