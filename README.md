@@ -83,10 +83,4 @@ All this last instance of powershell does is finally execute stealer.ps1
 
 1. Dropper.exe will drop file.ps1 
 2. File.ps1 includes a double base64 encoded command which will grab stealer.ps1
-2. Stealer.ps1 will steal files with common email extensions & send them to a remote FTP server
-
-# One last thing
-
-If the user that executes dropper.exe has no email-related files on their system, they will get an ugly error:
-
-![](/imgs/img15.png)
+3. Stealer.ps1 will steal files with common email extensions & send them to a remote FTP server
